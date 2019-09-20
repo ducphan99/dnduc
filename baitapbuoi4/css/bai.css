@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	max-width: 960px;
+	margin-left: 300px;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10% 80% 10%;
+	height: 1000px;
+}
+.header {
+	background-color: black;
+	grid-column: 1/2;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+.main {
+background-color: blue;
+}
+.sidebar {
+	background-color: lightgray;
+	grid-column: 1/2;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	column-gap: 10px;
+}
+.footer{
+	background-color: pink;
+	grid-column: 1/2;
+}
+.sidebar1 {
+	grid-column: 1/2;
+}
+.sidebar2 {
+	grid-column: 2/3;
+}
+.sidebar3 {
+	grid-column: 3/4;
+}
+.sidebar4 {
+	grid-column: 4/5;
+}
+.sidebar5 {
+	grid-column: 1/2;
+}
+.sidebar6 {
+	grid-column: 2/3;
+}
+.sidebar7 {
+	grid-column: 3/4;
+}
+.sidebar8 {
+	grid-column: 4/5;
+}
+.sidebar9 {
+	grid-column: 1/2;
+}
+.sidebar10 {
+	grid-column: 2/3;
+}
+.sidebar11 {
+	grid-column: 3/4;
+}
+.sidebar12 {
+	grid-column: 4/5;
+}
+.sidebar13 {
+	grid-column: 1/2;
+}
+.sidebar14 {
+	grid-column: 2/3;
+}
+.sidebar15 {
+	grid-column: 3/4;
+}
+.sidebar16 {
+	grid-column: 4/5;
+}
