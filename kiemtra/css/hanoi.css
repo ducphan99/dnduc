@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url(https://www.tapchikientruc.com.vn/wp-content/uploads/2015/02/123.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 100%;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10% 90%;
+	height: 1000px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.header {
+	background-color: red;
+	grid-column: 1/2;
+	color: white;
+	font-size: 80px;
+	text-align: center;
+	animation-name: chu;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.sidebar {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.sidabar1 {
+	grid-column: 1/2;
+	animation-name: side1;
+	animation-duration: 3s;
+}
+.sidabar3 {
+	animation-name: side3;
+	animation-duration: 3s
+}
+.sidabar2 p {
+	grid-column: 2/3;
+	padding-top: 70px;
+	padding-left: 20px;
+}
+.sidabar4 {
+	grid-column: 2/3
+}
+.sidabar4 p {
+	padding-top: 70px;
+	padding-left: 20px;
+}
+.sidabar6 {
+	grid-column: 2/3;
+}
+.sideba5{
+	grid-column: 1/2
+	animation-name: side5;
+	animation-duration: 3s;
+}
+.sidabar6 p {
+	padding-left: 20px;
+	padding-top: 70px;
+}
+@keyframes side1{
+	0%{opacity: 0}
+	25%{opacity: 0.2}
+	50%{opacity: 0.5}
+	75%{opacity: 0.8}
+	100%{opacity: 1}
+}
+@keyframes side3 {
+	0%{opacity: 0}
+	25%{opacity: 0.2}
+	50%{opacity: 0.5}
+	75%{opacity: 0.8}
+	100%{opacity: 1}
+}
+@keyframes side5 {
+	0%{opacity: 0}
+	25%{opacity: 0.2}
+	50%{opacity: 0.5}
+	75%{opacity: 0.8}
+	100%{opacity: 1}
+}
+.img0:hover {
+	transform: scale(1.2);
+}
+ p:hover {
+	transform: scale(1.1);
+	color: red;
+}
+ul li:hover {
+	transform: scale(1.1);
+	color: black;
+} 
+@keyframes chu {
+	0%{background-color: black}
+	25%{background-color: blue}
+	50%{background-color: green}
+	75%{background-color: yellow}
+	100%{background-color: red}
+}
